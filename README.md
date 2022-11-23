@@ -29,13 +29,20 @@ healthcheck:
   retries: 3
 ```
 
-* test params:
+**test params:**
+
 -nv: no verbose
+
 -t1: number of retries 
+
 -q: quiet (turn off output)
+
 -O-: output to default stream
 
-* healthcheck params:
+**healthcheck params:**
+
 interval: time between healthchecks to be performed
+
 timeout: time to consider the check failed
+
 retries: consecutive failure to the container be considered to have failed
