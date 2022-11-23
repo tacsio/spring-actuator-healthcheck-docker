@@ -2,6 +2,7 @@
 services:
   app:
     image: spring-actuator:latest
+    build: .
     ports:
       - 8081:8080
     healthcheck:
